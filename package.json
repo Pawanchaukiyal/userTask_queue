@@ -1,0 +1,22 @@
+{
+  "name": "usertask_queue",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "Pawan Chaukiyal",
+  "license": "ISC",
+  "description": "Api cluster to handle the task",
+  "dependencies": {
+    "express": "^4.19.2",
+    "express-rate-limit": "^7.4.0",
+    "ioredis": "^5.4.1",
+    "nodemon": "^3.1.4",
+    "rate-limit-redis": "^4.2.0",
+    "redis": "^4.7.0"
+  }
+}
